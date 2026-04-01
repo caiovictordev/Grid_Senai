@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid-container {
+            background-color: darkgray;
+            height: 80vh;
+            display: grid;
+            /* grid-template-columns: 1fr 2fr 3fr 1fr;  */
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .grid-items {
+            background-color: lightblue;
+            height: 10vh;
+            border: 4px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+        <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+        <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+
+         <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+        <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+        <div class="grid-items">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloribus mollitia a obcaecati! Cumque eveniet tempore esse iste, dolorem voluptas?</p>
+        </div>
+    </div>
+</body>
+</html>
