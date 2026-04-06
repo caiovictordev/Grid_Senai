@@ -1,0 +1,20 @@
+header{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    max-width: 1300px;
+
+    ul{
+        display: flex;
+        gap: 30px;
+        
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
