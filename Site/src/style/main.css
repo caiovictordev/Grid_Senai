@@ -10,22 +10,27 @@
         align-items: center;
         justify-content: space-between;
         h1{
-            font-weight: 300;
+            font-weight: 200;
             font-size: 100px;
             width: 500px;
+            strong{
+                font-weight: 900;
+                color: black;
+            }
         }
     }
     .two{
-        background-color: #acacac;
+        background-color: #FBFBFB;
         width: 1300px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 80px;
     }
     .three{
-        border: solid 2px;
         h2{
-            font-size: 70px;
+            font-weight: 200;
+            font-size: 80px;
+            margin-bottom: 20px;
         }
 
         .number-text{
@@ -34,7 +39,6 @@
             gap: 60px;
             
             .number{
-                border: solid 2px;
                 display: flex;
                 width: 100%;
                 p{
@@ -42,7 +46,6 @@
                     text-align: justify;
                     margin: 0 auto;
                     width: 450px;
-                    border: solid 2px;
                 }
             }
         }
@@ -87,6 +90,9 @@
             margin-top: 40px;
             padding: 20px;
             width: 200px;
+            background-color: #FBFBFB;
+            border: none;
+            cursor: pointer;
         }
     }
 }

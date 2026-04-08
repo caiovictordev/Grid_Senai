@@ -5,3 +5,11 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+body{
+    h1{
+        color: #BDBDBD;
+    }
+    h2{
+        color: #BDBDBD;
+    }
+}
