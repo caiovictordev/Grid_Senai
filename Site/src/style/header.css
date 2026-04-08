@@ -5,6 +5,7 @@ header{
     justify-content: space-between;
     margin: 30px auto;
     max-width: 1300px;
+    padding: 20px;
 
     ul{
         display: flex;
@@ -18,4 +19,22 @@ header{
             }
         }
     }
+}
+
+@media(max-width: 550px){
+
+    header{
+
+        justify-content: initial;
+        flex-direction: column;
+
+        img{
+
+            margin: 0 auto;
+            width: 25vw;
+            margin-bottom: 20px;
+
+        }
+    }
+
 }

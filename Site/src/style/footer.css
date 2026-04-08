@@ -22,3 +22,42 @@ footer{
        color: #C8C8C8; 
     }
 }
+
+@media(max-width: 1024px){
+
+    footer{
+
+        .text-info{
+
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            gap: 10px;
+            text-align: center;
+            justify-items: center;
+            border: solid 2px red;
+
+            p{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+    }
+
+}
+
+@media(max-width: 550px){
+
+    footer{
+
+        .text-info{
+
+            grid-template-columns: 1fr;
+            gap: 20px;
+
+        }
+
+    }
+
+}
