@@ -135,23 +135,64 @@
             flex-direction: column;
 
             h1{
-                font-size: 60px;
 
+                width: 200px;
+                font-size: 30px;
             }
+        }
+
+        .two{
+            margin: 0 auto;
+            width: 50vw;
+            justify-content: none;
+            flex-direction: column;
+            background-color: transparent;
+        }
+
+        .text-about{
+
+            h1{
+                font-size: 40px;
+            }
+
         }
 
         .imges-grid{
 
-            grid-template-columns: repeat(2, 40%);
+            grid-template-columns: repeat(2, 30%);
             
             img{
-
+                width: 50vw;
                 box-shadow: 5px 5px 10px black;
 
             }
 
         }
-                
-    }
 
+        .three h2{
+
+            font-size: 30px;
+            
+        }
+        .three{
+
+            .number-text{
+                margin: 0 auto;
+                width: 280px;
+                
+                img{
+                    margin: 0 auto;
+                    width: 10vw;
+                }
+                .number{   
+                    display: flex;
+                    flex-direction: column;
+                    p{
+                        font-size: 10px;
+                        width: 150px;
+                    }
+                }               
+            }
+        }      
+    }
 }

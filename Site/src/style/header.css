@@ -24,9 +24,18 @@ header{
 @media(max-width: 550px){
 
     header{
-
+        max-width: 300px;
+        margin: 0 auto;
         justify-content: initial;
         flex-direction: column;
+
+
+        ul{
+
+            font-size: 10px;
+            gap: 5px;
+
+        }
 
         img{
 
